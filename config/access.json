@@ -1,0 +1,43 @@
+{
+    "sites": [
+        {
+            "sites": "principal",
+            "access": "public",
+            "role": ""
+        }, 
+        {
+            "sites": "",
+            "access": "public",
+            "role": ""
+        }, 
+        {
+            "sites": "login",
+            "access": "public",
+            "role": ""
+        },
+        {
+            "sites": "signup",
+            "access": "public",
+            "role": ""
+        },
+        {
+            "sites": "user",
+            "access": "private",
+            "role": "user"
+        },
+        {
+            "sites": "user",
+            "access": "private",
+            "role": "admin"
+        },
+        {
+            "sites": "admin",
+            "access": "private",
+            "role": "admin"
+        }
+    ],
+    "default-sites": {
+        "user": "principal",
+        "admin": "principal"
+    }
+}
